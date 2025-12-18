@@ -1,0 +1,25 @@
+  {
+    "name": "ppifinal",
+    "version": "1.0.0",
+    "description": "Sistema web para controle de adoção de pets com Node.js, Express, cookies e sessão",
+    "keywords": [
+      "node",
+      "express",
+      "cookies",
+      "session",
+      "petshop",
+      "adocao"
+    ],
+    "author": "Lucas Ronaldo",
+    "license": "ISC",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^5.1.0",
+      "cookie-parser": "^1.4.6",
+      "express-session": "^1.17.3"
+    }
+  }
