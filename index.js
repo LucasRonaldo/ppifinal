@@ -91,7 +91,7 @@ app.get("/logout", (req, res) => {
 
 app.get("/", verificaLogin, (req, res) => {
   const ultimoAcesso = req.cookies.ultimoAcesso;
-  const agora = new Date().toLocaleString("pt-BR");
+  const agora = new Date().toLocaleString("pt-BR",{ timeZone: "America/Sao_Paulo"});
 
   res.cookie("ultimoAcesso", agora, { maxAge: 1000 * 60 * 60 * 24 * 30 });
 
